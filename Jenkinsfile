@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/<your-user>/tomcat-hello.git'
+                git branch: 'main', url: 'https://github.com/SHASHIKUMARM1994/tomcat-hello.git'
             }
         }
 
